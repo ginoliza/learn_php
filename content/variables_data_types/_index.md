@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Variables y Tipos de Datos"
-weight = 1
+weight = 2
 +++
 
 ## Tipos
