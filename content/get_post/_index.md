@@ -4,7 +4,11 @@ title = "Variables GET & POST"
 weight = 4
 +++
 
-Son variables que se pueden usar para obtener datos de la pagina web. Dentro de un formulario `form` se especifica el `method="get"` o `method="post"`. Se pueden observar los cambios al hacer click en el `submit`.
+Son variables que se pueden usar para obtener datos de la pagina web. Dentro de un formulario `form` se especifica:
+- El archivo hacia donde van los datos (en este caso el mismo) `action="index.php"`
+- El método: `method="get"` o `method="post"`. 
+
+Se pueden observar los cambios al hacer click en el `submit`.
 
 ## _GET
 - Los datos se añaden a la URL
