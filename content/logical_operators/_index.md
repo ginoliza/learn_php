@@ -5,6 +5,12 @@ weight = 7
 +++
 
 ## AND `&&` y OR `||`
+### AND
+Verdad si ambas condiciones lo son
+
+### OR
+Verdad si al menos una es verdad
+
 Ejemplo - Para votar se requiere:
 - Ser mayor de 18 años
 - Ser ciudadano
@@ -23,6 +29,8 @@ else{
 }
 {{< /highlight >}}
 ## NOT `!`
+Verdad si es falso, Falso si es verdad
+
 {{< highlight  type="php" wrap="true" lineNos="true">}}
 $variable = true;
 
