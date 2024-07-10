@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "For loop"
+title = "Bucle for"
 weight = 9
 +++
 
