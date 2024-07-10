@@ -6,14 +6,16 @@ weight = 11
 
 Variable que puede contener mas de un valor.
 
-## array()
-Creación del array
+## Creación
+`array()`
+
 ```php
 $frutas = array("manzana", "naranja", "platano", "coco");
 ```
 
-## count()
-Número de elementos del array
+## Número de elementos
+`count()`
+
 ```php
 echo count($frutas);
 ```
@@ -25,32 +27,35 @@ foreach ($frutas as $fruta) {
 }
 ```
 
-## $arr[x]
-Acceder a los elementos
+## Acceder a los elementos
+`[]`
+
 ```php
 echo $frutas[0] . "<br>";
 ```
 
-## array_push()
-Agregar valores al final
+## Agregar valores al final
+`array_push()`
 ```php
 array_push($frutas, "piña");
 ```
 
-## array_pop()
-Eliminar el último valor
+## Eliminar el último valor
+`array_pop()`
+
 ```php
 array_pop($frutas);
 ```
 
-## array_shift()
-Eliminar el primer valor
+## Eliminar el primer valor
+`array_shift()`
 ```php
 array_shift($frutas);
 ```
 
-## array_reverse()
-Invertir array
+## Invertir array
+`array_reverse()`, , retorna un nuevo array
+
 ```php
 $frutas = array_reverse($frutas);
 ```
