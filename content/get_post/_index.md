@@ -63,3 +63,25 @@ Se pueden observar los cambios al hacer click en el `submit`.
     echo "{$_POST["password"]} <br>";
 ?>
 {{< /highlight >}}
+
+## Key => Value
+Se puede acceder a los valores de `$_GET` y `$_POST` usando vares `$key=>$value`
+
+Los `key` son `name` y los `value` son los valores ingresados, con excepcion del botón `submit` cuyo `value` se asigna directamente en la etiqueta.
+```html
+<form action="index.php" method="post">
+    <label>Username:</label>
+    <input type="text" name="username"><br>
+
+    <label>Password:</label>
+    <input type="password" name="password"><br>
+
+    <input type="submit" name="login" value="Log In">
+</form>
+```
+```php
+foreach($_POST as $key=>$value){
+    echo $key . "=" . $value . "<br>";
+}
+```
+
