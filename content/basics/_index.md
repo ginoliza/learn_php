@@ -10,7 +10,7 @@ weight = 1
 {{< highlight  type="json" wrap="true" title="settings.json">}}
 "php.validate.executablePath" : "C:/xampp/php/php.exe"
 {{< /highlight >}}
-3. Poner la pagina web en htdocs
+3. Poner la pagina web `website` en htdocs
 4. Instalar las extensiones para VSCode:
     - Live Server
     - PHP Inteliphense
@@ -42,15 +42,14 @@ Los archivos **php** pueden contener:
 - PHP
 
 {{< highlight type="php">}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina</title>
-</head>
+...html
+
 <body>
     <h1>titulo</h1>
 </body>
 </html>
+
+<?php
+    // codigo php
+?>
 {{< /highlight >}}
