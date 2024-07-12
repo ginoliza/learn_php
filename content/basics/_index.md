@@ -10,7 +10,7 @@ weight = 1
 {{< highlight  type="json" wrap="true" title="settings.json">}}
 "php.validate.executablePath" : "C:/xampp/php/php.exe"
 {{< /highlight >}}
-3. Poner la pagina web `website` en htdocs
+3. Poner la pagina web `website` en la carpeta `htdocs`
 4. Instalar las extensiones para VSCode:
     - Live Server
     - PHP Inteliphense
