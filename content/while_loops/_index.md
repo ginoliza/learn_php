@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Bucles while"
+title = "10. Bucles while"
 weight = 10
 +++
 

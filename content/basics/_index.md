@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Lo básico"
+title = "01. Lo básico"
 weight = 1
 +++
 
@@ -41,7 +41,7 @@ Los archivos **php** pueden contener:
 - JavaScript
 - PHP
 
-{{< highlight type="php">}}
+{{< highlight type="phtml">}}
 ...html
 
 <body>

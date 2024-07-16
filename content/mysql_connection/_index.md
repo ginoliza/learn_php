@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Conexión con MySQL"
+title = "24. Conexión con MySQL"
 weight = 24
 +++
 

@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Arrays, foreach"
+title = "11. Arrays, foreach"
 weight = 11
 +++
 

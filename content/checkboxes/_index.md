@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Checkboxes"
+title = "15. Checkboxes"
 weight = 15
 +++
 
@@ -8,7 +8,8 @@ weight = 15
 
 Ejemplo - para seleccionar si nos gusta pizza, pollo o hamburguesa e imprimirlo. Los `key` y `value` que recibe `php` son los `name` y `value` del `html`.
 
-```html
+```phtml
+...html
 <form action="index.php" method="post">
     <input type="checkbox" name="pizza" value="Pizza">
     Pizza <br>
@@ -18,9 +19,9 @@ Ejemplo - para seleccionar si nos gusta pizza, pollo o hamburguesa e imprimirlo.
     Hamburguesa <br>
     <input type="submit" name="submit" value="Submit">    
 </form>
-```
+</html>
 
-```php
+<?php
 if(isset($_POST["pizza"])){    
     echo "You like pizza <br>";
 }else{
@@ -38,13 +39,15 @@ if(isset($_POST["hamburguesa"])){
 }else{
     echo "You DONT like hamburguesa <br>";
 }
+?>
 ```
 
 ## Juntos en un array
 
 El `name` em el `html` debe ser el mismo para todos los checkboxes seguido de corchetes `[]`. Esto hace que sea un array
 
-```html
+```phtml
+...html
 <form action="index.php" method="post">
     <input type="checkbox" name="comidas[]" value="Pizza">
     Pizza <br>
@@ -54,12 +57,13 @@ El `name` em el `html` debe ser el mismo para todos los checkboxes seguido de co
     Hamburguesa <br>
     <input type="submit" name="submit" value="Submit">    
 </form>
-```
+</html>
 
-```php
+<?php
 $comidas = $_POST["comidas"];
 
 foreach($comidas as $comida){
     echo "You like $comida <br>";
 }
+?>
 ```

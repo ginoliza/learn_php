@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Arrays asociativos"
+title = "12. Arrays asociativos"
 weight = 12
 +++
 
@@ -86,7 +86,8 @@ $capitales = array_reverse($capitales);
 ## Ejercicio
 Usando web, que un usuario escriba un pais y al presionar `Submit` se imprima la capital.
 {{% expand title="Solución" %}}
-```html
+```phtml
+...html
 <body>
     <form action="index.php" method="post">
         <label>Ingrese pais:</label>
@@ -94,8 +95,8 @@ Usando web, que un usuario escriba un pais y al presionar `Submit` se imprima la
         <input type="submit" value="Submit">        
     </form>
 </body>
-```
-```php
+</html>
+
 <?php
 $country = $_POST["pais"];
 

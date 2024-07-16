@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Botones de radio"
+title = "14. Botones de radio"
 weight = 14
 +++
 
@@ -31,7 +31,7 @@ if(isset($_POST["submit"])){
 Seleccionar una de 3 tarjetas e imprimirla.
 
 {{% expand title="Solución" %}}
-```html
+```phtml
 <form action="index.php" method="post">
     <input type="radio" name="credit_card" value="visa">
     <label>Visa</label><br>
@@ -44,9 +44,9 @@ Seleccionar una de 3 tarjetas e imprimirla.
 
     <input type="submit" name="submit" value="Submit">
 </form>
-```
+</html>
 
-```php
+<?php
 if(isset($_POST["submit"])){
     // si credit_card ha sido establecida
     if(isset($_POST["credit_card"])){        
@@ -58,5 +58,6 @@ if(isset($_POST["submit"])){
         echo "Por favor seleccione una tarjeta";
     }
 }
+?>
 ```
 {{% /expand %}}

@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "If, else, elseif"
+title = "06. If, else, elseif"
 weight = 6
 +++
 

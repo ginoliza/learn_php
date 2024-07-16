@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Crear tablas en phpMyAdmin"
+title = "25. Crear tablas en phpMyAdmin"
 weight = 25
 +++
 

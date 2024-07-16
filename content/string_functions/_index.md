@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Funciones de string"
+title = "17. Funciones de string"
 weight = 17
 +++
 

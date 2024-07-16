@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Operadores lógicos"
+title = "07. Operadores lógicos"
 weight = 7
 +++
 

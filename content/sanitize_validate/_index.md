@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Sanitize & validate"
+title = "18. Sanitize & validate"
 weight = 18
 +++
 

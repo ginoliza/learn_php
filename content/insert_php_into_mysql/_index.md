@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Insertar a MySQL usando PHP"
+title = "26. Insertar a MySQL usando PHP"
 weight = 26
 +++
 

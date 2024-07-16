@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "isset, empty"
+title = "13. isset, empty"
 weight = 13
 +++
 
@@ -47,7 +47,8 @@ Se puede detectar que el botón ha sido presionado si su `value` ha sido estable
 
 {{% expand %}}
 
-```html
+```phtml
+...html
 <form action="index.php" method="post">
     <label>Username:</label>
     <input type="text" name="username"><br>
@@ -57,11 +58,10 @@ Se puede detectar que el botón ha sido presionado si su `value` ha sido estable
 
     <input type="submit" name="login" value="Log In">
 </form>
-```
+</html>
 
-
-```php
- if(isset($_POST["login"])){
+<?php
+if(isset($_POST["login"])){
     $username = $_POST["username"];
     $password = $_POST["password"];    
 
@@ -74,6 +74,7 @@ Se puede detectar que el botón ha sido presionado si su `value` ha sido estable
         echo "Hola $username";
     }
 }
+?>
 ```
 
 {{% /expand %}}
